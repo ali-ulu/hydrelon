@@ -34,8 +34,8 @@ nav.menu a:hover::after{width:calc(100% - 26px)}
 .drawer .panel a .n{font-size:14px;color:var(--cyan);letter-spacing:.1em}
 .drawer .panel .dcta{margin-top:26px;display:flex;flex-direction:column;gap:12px}
 
-.brand-lockup{height:26px;width:auto;flex:none;transition:height .4s}
-header.nav.scrolled .brand-lockup{height:22px}
+.brand-lockup{height:20px;width:auto;flex:none;transition:height .4s}
+header.nav.scrolled .brand-lockup{height:17px}
 
 /* full-bleed header: logo sits at the left edge */
 header.nav .nav-inner{max-width:none;padding:0 clamp(20px,3vw,48px)}
