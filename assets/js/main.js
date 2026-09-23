@@ -2,4 +2,3 @@
 import './nav.js';
 import './reveal.js';
 import './effects.js';
-import './forms.js';

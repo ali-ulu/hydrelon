@@ -12,7 +12,7 @@
   --glass:rgba(255,255,255,.62); --glassb:rgba(255,255,255,.55);
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:clip}
 body{font-family:var(--body);font-weight:300;font-size:19.5px;color:var(--txt);background:var(--paper);line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 body::before{content:"";position:fixed;inset:0;z-index:-2;
   background:
