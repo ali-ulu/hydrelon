@@ -1,0 +1,13 @@
+@media(max-width:1000px){
+  .hero-grid,.perf-grid,.manifesto .wrap,.about-grid,.contact-grid,.ins-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  nav.menu,.nav-cta .btn-ghost{display:none}
+  .hamb{display:flex}
+  .perf-visual{min-height:320px;order:-1}
+}
+@media(max-width:640px){
+  .section{padding:84px 0}
+  .wrap{padding:0 20px}
+  .nav-cta .btn-primary{display:none}
+  .offices,.row2,.pillars,.vm,.foot-grid{grid-template-columns:1fr}
+}
