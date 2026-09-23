@@ -14,4 +14,4 @@ totop.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
 const hamb=$('#hamb'),drawer=$('#drawer');
 hamb.addEventListener('click',()=>{hamb.classList.toggle('open');drawer.classList.toggle('open');});
 drawer.addEventListener('click',e=>{if(e.target===drawer||e.target.tagName==='A'){hamb.classList.remove('open');drawer.classList.remove('open');}});
-export {hamb,drawer};
+addEventListener('keydown',e=>{if(e.key==='Escape'){hamb.classList.remove('open');drawer.classList.remove('open');}});

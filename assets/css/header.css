@@ -36,3 +36,7 @@ nav.menu a:hover::after{width:calc(100% - 26px)}
 
 .brand-lockup{height:26px;width:auto;flex:none;transition:height .4s}
 header.nav.scrolled .brand-lockup{height:22px}
+
+/* full-bleed header: logo sits at the left edge */
+header.nav .nav-inner{max-width:none;padding:0 clamp(20px,3vw,48px)}
+nav.menu{margin-left:auto}
